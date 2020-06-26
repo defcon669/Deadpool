@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Deadpool</string>
+    <string name="Apocalypse">Apocalyptic_View</string>
+    <string name="DeadPool">DeadPool</string>
+    <string name="deadPool">DeadPool</string>
+    <string name="droppingBy">Oh, I didn\'t mean to disturb you by \"popping\" in soooo sooooon.  Hiiiiiii!  \n \n
+    Enjoy the 2 minutes and 45 excrutiating seconds of this.  Unless of course, you like ear sores. \n \n
+    OR... You can just touch me to get the music to stop **wink wink**</string>
+    <string name="intro">Tap anywhere on the screen to view a message from our sponsor!</string>
+    <string name="stop">Stop</string>
+</resources>

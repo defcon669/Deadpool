@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Apocalypse"
+        android:layout_width="734dp"
+        android:layout_height="902dp"
+        android:adjustViewBounds="false"
+        android:background="#070707"
+        android:contentDescription="@string/Apocalypse"
+        android:contextClickable="true"
+        android:hapticFeedbackEnabled="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/apocalypse_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/apocalypse_10" />
+
+    <ImageView
+        android:id="@+id/DeadPool"
+        android:layout_width="578dp"
+        android:layout_height="116dp"
+        android:contentDescription="@string/deadPool"
+        android:src="@drawable/deadpool_removebg_preview"
+        app:layout_constraintBottom_toTopOf="@+id/dropIn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-84dp" />
+
+    <TextView
+        android:id="@+id/dropIn"
+        android:layout_width="596dp"
+        android:layout_height="168dp"
+        android:background="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="@string/droppingBy"
+        android:textAlignment="center"
+        android:textColor="#040303"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
